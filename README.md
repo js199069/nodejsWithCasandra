@@ -7,8 +7,14 @@ simple app for CRUD App with Nodejs and Cassandra DB
 
 
 echo "deb https://debian.cassandra.apache.org 41x main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
+
+
 curl https://downloads.apache.org/cassandra/KEYS | sudo apt-key add -
+
+
 sudo apt-get update -y
+
+
 sudo apt-get install cassandra -y
 
 
